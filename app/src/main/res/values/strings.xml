@@ -1,0 +1,203 @@
+<resources>
+    <!--<string name="app_name">GISEL</string>
+    <string name="full_app_name">Guess Query SQL</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="subtitle_dashboard">Answer Statistics Report</string>
+    <string name="title_leaderboard">Leaderboard</string>
+    <string name="top_rank">Top Rank</string>
+    <string name="title_video">Play the Video</string>
+    <string name="title_theory">Learn the Theory</string>
+    <string name="title_quiz">Guess the Answer</string>
+
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_username">Enter Username</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_img">Please, choose photo</string>
+    <string name="connection_failed">Connection Failed!</string>
+    <string name="auth">Authenticating…</string>
+    <string name="error_valid_username">Wrong User Name</string>
+    <string name="error_valid_password">Wrong Password</string>
+
+    <string name="leader_name">Nama Leader</string>
+    <string name="point">125 xp</string>
+    <string name="nama_materi">Nama Materi</string>
+
+    &lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="beginner">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="advanced">Advanced</string>
+    <string name="expert">Expert</string>
+
+    <string name="welcome_back">Welcome, lets…</string>
+    <string name="lets_learn">Learn, Play, Guess the Query, and be Ranked Top</string>
+    <string name="login">Login</string>
+    <string name="email">Username</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_age">Age</string>
+    <string name="gender">Gender</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="creating_account">Creating Account…</string>
+    <string name="success_message">Success, please login</string>
+    <string name="duplicate_account">Sorry, the username has been used</string>
+    <string name="failed_account">Failed to create account!</string>
+    <string name="hello">Hello, </string>
+    <string name="explanation">Explanation</string>
+    <string name="example">Example</string>
+    <string name="result">Result</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="profile_sub">Your account information</string>
+    <string name="help">Help</string>
+    <string name="help_sub">How to use the application?</string>
+    <string name="about">About</string>
+    <string name="about_sub">Know our application and team</string>
+    <string name="account">Account</string>
+    <string name="account_sub">Logout from your account</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_sub">Give us feedback for better</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="message_logout">Are you sure you want to logout?</string>
+    <string name="message_lock_lesson">Sorry this lesson is still locked, please finish the previous lesson!</string>
+    <string name="message_lock_section">Please complete the previous section!</string>
+    <string name="message_feedback">Describe the issue you\'ve encountered *or* Tell us how you\'d like to improve *GISEL*</string>
+    <string name="lesson">Lesson</string>
+    <string name="lock">Lock</string>
+    <string name="finish">Finish</string>
+
+    <string name="msg_video">Watch the Video as an Overview</string>
+    <string name="msg_theory">Learn Theory to increase understanding</string>
+    <string name="msg_quiz">Let\'s Practice to Guess the Query SQL</string>-->
+
+    <string name="app_name">Teka-Teki SQL</string>
+    <string name="short_app_name">TTS</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Dasbor</string>
+    <string name="subtitle_dashboard">Laporan Statistik Jawaban</string>
+    <string name="title_leaderboard">Papan Perinkat</string>
+    <string name="top_rank">Peringkat Teratas</string>
+    <string name="title_video">Putar Videonya</string>
+    <string name="title_theory">Pelajari Teorinya</string>
+    <string name="title_quiz">Tebak Jawabannya</string>
+
+    <string name="error_message_name">Masukkan Nama Lengkap</string>
+    <string name="error_message_username">Masukkan Nama Pengguna</string>
+    <string name="error_message_password">Masukkan Kata Sandi</string>
+    <string name="error_message_sql">Masukkan Query</string>
+    <string name="error_password_match">Kata Sandi Tidak Cocok</string>
+    <string name="error_img">Silakan pilih foto</string>
+    <string name="connection_failed">Koneksi Gagal!</string>
+    <string name="auth">Otentikasi…</string>
+    <string name="error_valid_username">Nama Pengguna Salah</string>
+    <string name="error_valid_password">Kata Sandi Salah</string>
+
+    <string name="leader_name">Nama Pemimpin</string>
+    <string name="point">125 xp</string>
+    <string name="nama_materi">Nama Materi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="beginner">Pemula</string>
+    <string name="intermediate">Menengah</string>
+    <string name="advanced">Lanjutan</string>
+    <string name="expert">Ahli</string>
+
+    <string name="welcome_back">Selamat datang, mari…</string>
+    <string name="lets_learn">Pelajari, Mainkan, Tebak Kueri, dan menjadi Peringkat Teratas</string>
+    <string name="login">Masuk</string>
+    <string name="email">Nama Pengguna</string>
+    <string name="register">Daftar</string>
+    <string name="password">Kata Sandi</string>
+    <string name="sign_up">Daftar Akun</string>
+
+    <string name="hint_full_name">Nama Lengkap</string>
+    <string name="hint_username">Nama Pengguna</string>
+    <string name="hint_password">Kata Sandi</string>
+    <string name="hint_confirm_password">Konfirmasi Kata Sandi</string>
+    <string name="hint_age">Usia</string>
+    <string name="gender">Jenis Kelamin</string>
+
+    <string-array name="gender">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string name="creating_account">Membuat akun…</string>
+    <string name="success_message">Berhasil, silahkan login</string>
+    <string name="failed_account">Gagal membuat akun!</string>
+    <string name="hello">Hallo, </string>
+
+    <string name="title_activity_settings">Pengaturan</string>
+    <string name="profile">Profil</string>
+    <string name="profile_sub">Informasi akun Anda</string>
+    <string name="help">Bantuan</string>
+    <string name="help_sub">Cara menggunakan aplikasi?</string>
+    <string name="about">Tentang</string>
+    <string name="about_sub">Ketahui aplikasi dan tim kami</string>
+    <string name="account">Akun</string>
+    <string name="account_sub">Logout dari akun Anda</string>
+    <string name="feedback">Umpan balik</string>
+    <string name="feedback_sub">Beri kami umpan balik untuk lebih baik</string>
+    <string name="no_whatsapp">Aplikasi Whatsapp tidak terpasang di ponsel Anda!</string>
+
+    <string name="yes">Iya</string>
+    <string name="no">Tidak</string>
+    <string name="ok">Oke</string>
+    <string name="message_logout">Anda yakin ingin keluar?</string>
+    <string name="message_lock_lesson">Maaf pelajaran ini masih terkunci, silakan selesaikan pelajaran sebelumnya!</string>
+    <string name="message_lock_section">Silakan lengkapi bagian sebelumnya!</string>
+    <string name="message_un_finish_lesson">Maaf anda belum menyelesaikan seluruh timeline belajar!</string>
+    <string name="message_feedback">Jelaskan masalah yang anda dapati *atau* beri tahu kami bagaimana saran anda untuk meningkatkan *TTS (Teka-Teki SQL)*</string>
+    <string name="lesson">Pelajaran</string>
+    <string name="lock">Mengunci</string>
+    <string name="finish">Selesai</string>
+
+    <string name="msg_video">Tonton Video sebagai Gambaran</string>
+    <string name="msg_theory">Pelajari Teori untuk meningkatkan pemahaman</string>
+    <string name="msg_quiz">Ayo Berlatih untuk Menebak Query SQL</string>
+
+    <string name="gisel_sub">Aplikasi Virtual-Lab untuk belajar SQL</string>
+    <string name="gisel_version">Version 1.0</string>
+    <string name="teacher_coordinators">Dosen Pembimbing</string>
+    <string name="dosen">- Rizki Hikmawan, S.Pd.,M.Pd</string>
+    <string name="team_members">Anggota Tim</string>
+    <string name="team">- Robby Akbar\n- Deden Eka Purwanto\n- Duma Diani Sari Siregar</string>
+    <string name="psti_ambis_team">PSTI Ambis Team</string>
+
+    <string name="simoki">Simoki</string>
+    <string name="lamk">LAMK</string>
+    <string name="tahun">2020</string>
+    <string name="kemdikbud">Kemdikbud</string>
+    <string name="m_edukasi">m-edukasi</string>
+    <string name="kihajar">Kihajar</string>
+
+    <string name="memuat_video">Memuat Video…</string>
+    <string name="video_selesai">Video Selesai</string>
+
+    <string name="no_jawaban">Pilih jawaban terlebih dahulu!</string>
+    <string name="benar">Jawaban Benar</string>
+    <string name="salah">Jawaban Salah</string>
+    <string name="cek_jawaban">Cek Jawaban</string>
+    <string name="masukkan_query_sql">Masukkan Query SQL</string>
+    <string name="cek_query">Cek Query</string>
+    <string name="score">Bobot XP\u0020</string>
+    <string name="lesson_finish">Selamat anda sudah menyelesaikan materi</string>
+
+</resources>

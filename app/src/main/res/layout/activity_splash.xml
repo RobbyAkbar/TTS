@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".MainActivity">
+
+    <!--<ImageView
+        android:id="@+id/simoki"
+        android:layout_width="wrap_content"
+        android:layout_height="175dp"
+        android:contentDescription="@string/simoki"
+        android:src="@drawable/simoki"/>
+
+    <ImageView
+        android:id="@+id/lamk"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_below="@id/simoki"
+        android:contentDescription="@string/lamk"
+        android:src="@drawable/lamk"/>
+
+    <ImageView
+        android:id="@+id/tahun"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_below="@id/lamk"
+        android:contentDescription="@string/tahun"
+        android:src="@drawable/tahun"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tahun"
+        android:layout_above="@+id/ll"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/appbar_padding"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/kemdikbud"
+            android:padding="5dp"
+            android:src="@drawable/kemdikbud"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="2"
+            android:contentDescription="@string/m_edukasi"
+            android:padding="5dp"
+            android:src="@drawable/m_edukasi"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/kihajar"
+            android:padding="5dp"
+            android:src="@drawable/kihajar"/>
+
+    </LinearLayout>-->
+
+</RelativeLayout>

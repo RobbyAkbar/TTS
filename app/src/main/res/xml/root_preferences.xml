@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="@string/profile"
+        android:icon="@drawable/ic_account_circle_black"
+        android:summary="@string/profile_sub"
+        android:title="@string/profile" />
+
+    <Preference
+        android:key="@string/feedback"
+        android:icon="@drawable/ic_feedback"
+        android:summary="@string/feedback_sub"
+        android:title="@string/feedback" />
+
+    <PreferenceCategory>
+
+        <Preference
+            android:key="@string/help"
+            android:icon="@drawable/ic_help"
+            android:summary="@string/help_sub"
+            android:title="@string/help" />
+
+        <Preference
+            android:key="@string/about"
+            android:icon="@drawable/ic_info_black"
+            android:summary="@string/about_sub"
+            android:title="@string/about" />
+
+        <Preference
+            android:key="@string/account"
+            android:icon="@drawable/ic_account"
+            android:summary="@string/account_sub"
+            android:title="@string/account" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
