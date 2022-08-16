@@ -1,7 +1,7 @@
 package edu.upi.ttsGisel.utils
 
 object Config {
-    private const val SERVER_API = "http://zeecodeku.xyz/gisel/"
+    private const val SERVER_API = "http://192.168.53.99:8080/api-tts/"
     const val LINK_ICON = SERVER_API + "icon/"
     const val LINK_VIDEO = SERVER_API + "video/"
     const val LINK_MATERI = SERVER_API + "materi/"

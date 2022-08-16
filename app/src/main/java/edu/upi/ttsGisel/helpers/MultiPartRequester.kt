@@ -6,15 +6,15 @@ import android.content.Context
 import android.os.AsyncTask
 import android.util.Log
 import android.widget.Toast
+import cz.msebera.android.httpclient.client.HttpClient
+import cz.msebera.android.httpclient.client.methods.HttpPost
+import cz.msebera.android.httpclient.entity.ContentType
+import cz.msebera.android.httpclient.entity.mime.MIME
+import cz.msebera.android.httpclient.entity.mime.MultipartEntityBuilder
+import cz.msebera.android.httpclient.impl.client.DefaultHttpClient
+import cz.msebera.android.httpclient.params.HttpConnectionParams
+import cz.msebera.android.httpclient.util.EntityUtils
 import edu.upi.ttsGisel.listeners.AsyncTaskCompleteListener
-import org.apache.http.client.HttpClient
-import org.apache.http.client.methods.HttpPost
-import org.apache.http.entity.ContentType
-import org.apache.http.entity.mime.MIME
-import org.apache.http.entity.mime.MultipartEntityBuilder
-import org.apache.http.impl.client.DefaultHttpClient
-import org.apache.http.params.HttpConnectionParams
-import org.apache.http.util.EntityUtils
 import java.io.File
 
 class MultiPartRequester(
@@ -48,11 +48,11 @@ class MultiPartRequester(
                 for (key in map.keys) {
 
                     if (key.equals("filename", ignoreCase = true)) {
-                        val f = File(map[key])
+                        val f = map[key]?.let { File(it) }
 
                         builder.addBinaryBody(
                                 key, f,
-                                ContentType.MULTIPART_FORM_DATA, f.name
+                                ContentType.MULTIPART_FORM_DATA, f?.name
                         )
                     } else {
                         builder.addTextBody(
